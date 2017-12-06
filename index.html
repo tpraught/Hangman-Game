@@ -3,8 +3,38 @@
   <head>
     <meta charset="UTF-8">
     <title>Hangman</title>
+
+  	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+  	<!-- Linking to the Google Fonts -->
+  	<link href="https://fonts.googleapis.com/css?family=Oxygen:300|Sofia" rel="stylesheet">
+
   </head>
   <body>
+
+  	<header>
+  		<div id="headerContainer">
+		  	<h1>Christmas Hangman</h1>
+			<h2>Guess popular Christmas words!</h2>
+		</div>
+	</header>
+
+	<!-- Game word section; displays the dashes and letters that were guessed right -->
+	<section id="hangman">
+		<h3 id="hangmanWord">_ _ _ _ _ _</h3>
+	</section>
+
+	<!-- Shows letters guessed wrong, guesses left, wins, and losses -->
+	<section id="stats">
+		<h4>Letters Guessed Wrong: <span id="wrongGuesses"></span></h4>
+		<h4>Number of Guesses Left: <span id="guessesLeft"></span></h4>
+		<h4>Number of Wins: <span id="numWins"></span></h4>
+		<h4>Number of Losses: <span id="numLosses"></span></h4>
+	</section>
+
+	<!-- linking to our Javascript to run the game -->
+	<script src="assets/javascript/game.js"></script>
 
   </body>
 </html>

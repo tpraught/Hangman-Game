@@ -1,0 +1,65 @@
+body {
+	background: url('../images/bkg_candyCane.jpg') repeat bottom left;
+	background-size:cover;
+	font-family:'Oxygen', sans-serif;
+	width:100%;
+	height:100vh;
+}
+/* Header CSS */
+header {
+	width:100%;
+	background:#bb0a10;
+	padding:20px 0;
+	-webkit-box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.6);
+	-moz-box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.6);
+	box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.6);
+	margin:0 0 40px 0;
+}
+
+header #headerContainer {
+	width:40%;
+	margin:0 auto;
+	text-align:center;
+}
+
+header h1 {
+	font-family: 'Sofia', cursive;
+	font-size: 60px;
+	color:#ffffff;
+	margin:0 0 20px 0;
+	border-bottom:2px solid #ffffff;
+}
+
+header h2 {
+	font-size: 20px;
+	font-weight:bold;
+}
+
+/* Hangman Word Container CSS */
+#hangman {
+	width:40%;
+	background:#ffffff;
+	border:3px dotted #bb0a10;
+	outline:5px solid #ffffff;
+	margin:0 auto 30px auto;
+	font-size:60px;
+	padding:50px;
+	text-align:center;
+}
+
+/* Hangman Stats Container CSS */
+#stats {
+	position:relative;
+	background: url('../images/img_christmasTree.png') no-repeat bottom right;
+	background-size:30%;
+	width:40%;
+	background-color:#ffffff;
+	border:3px dotted #bb0a10;
+	outline:5px solid #ffffff;
+	margin:0 auto 30px auto;
+	padding:50px;
+}
+#stats h4 {
+	margin:0 0 25px 0;
+	font-size:36px;
+}
